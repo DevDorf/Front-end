@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalahndo com tabelas Tabelas</title>
+    <style>
+        table{
+            -webkit-box-shadow: 19px 20px 15px 7px #000000; 
+                box-shadow: 19px 20px 15px 7px #000000;
+                border: lightblue;
+        }
+        table thead th {
+            background-color: black;
+            color: beige;
+        }
+        table tfoot td {
+            background-color:lightgray;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: gray;
+        }
+        table tbody tr:hover td {
+            background-color: darkgrey;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table sumary="Resumo dos dados da tabela, detalhadamente" width="400" align="center" cellpedding="5" cellspacing="0">
+        <caption>Tabela de Idades de Alunos</caption>
+        <thead>
+            <tr>
+                <th colspan="2"> Minha Tabela</th>
+            </tr>
+            <tr>
+                <th title="Nome Completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr id="1">
+                <td>Diogo</td>
+                <td>37</td>
+            </tr>
+            <tr id="2">
+                <td>Caio</td>
+                <td>33</td>
+            </tr>
+            <tr id="3">
+                <td>Tuã</td>
+                <td>05</td>
+            </tr>
+            <tr id="4">
+                <td>Camila</td>
+                <td>40</td>
+            </tr>
+            <tr id="5">
+                <td>Finado</td>
+                <td>37</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <td>Total</td>
+            <td>6</td>
+        </tfoot>
+    </table>
+</body>
+</html>
