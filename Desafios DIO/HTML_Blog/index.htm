@@ -3,24 +3,33 @@
         <title>Primeiros Estudos de HTML</title>
      </head>
     <body>
-        <h1 id="inicio"> Noções Básicas de HTML</h1>
+        <h1 id="inicio"> <font face="Comics, Tahoma" >Noções Básicas de </font><font color="orange" >HTML5</font></h1>
         <hr />
-        <ul>
-            <li><a href="#significa">O que significa HTML?</a></li>
-            <li><a href="#estrutura">Qual a sua estrutura basica?</a></li>
-            <li><a href="#tags">Tags do HTML</a></li>
-            <li><a href="#cabecalho">Cabeçalho do HTML</a></li>
-            <li><a href="#paragrafo">Parágrafos no HTML</a></li>
-            <li><a href="#imagens">Imagens no HTML</a></li>
-            <li><a href="#texto">Formatação de Texto</a></li>
-            <li><a href="#referencias">Referências</a></li>
-        </ul>
+        <div id="menu_lateral">
+            <div id="Indice">
+                <h3>Indice</h3>
+                <ul>
+                    <li><a href="#significa">O que significa HTML?</a></li>
+                    <li><a href="#estrutura">Qual a sua estrutura basica?</a></li>
+                    <li><a href="#tags">Tags do HTML</a></li>
+                    <li><a href="#cabecalho">Cabeçalho do HTML</a></li>
+                    <li><a href="#paragrafo">Parágrafos no HTML</a></li>
+                    <li><a href="#imagens">Imagens no HTML</a></li>
+                    <li><a href="#texto">Formatação de Texto</a></li>
+                    <li><a href="#referencias">Referências</a></li>
+                </ul>
+            </div>
+        </div>
 
-        <h2 id="significa">O que significa HTML</h2>
+        <h2 id="significa"><font face="Comics, Tahoma" >O que significa HTML?</font></h2>
         <small><a href="#inicio">(Voltar)</a></small>
-            <p>HTML (abreviação de Hypertext Markup Language) é uma linguagem de marcação utilizada na estruturação de páginas web. Sua sintaxe é bastante simples e, assim como a XML é baseada em tags, que representam os diversos elementos de uma página, como imagens e links. Ao acessar uma página web através de um navegador, ele é capaz de interpretar o código HTML e renderizá-lo de forma compreensível para o usuário final, exibindo textos, botões etc. com as configurações definidas por meio das diversas tags que essa linguagem dispõe.</p>
+            <p>HTML (abreviação de <i>Hypertext Markup Language</i>) é uma linguagem de marcação utilizada na estruturação
+                 de páginas web. Sua sintaxe é bastante simples e, assim como a <i>XML</i> é baseada em tags, que representam 
+                 os diversos elementos de uma página, como imagens e links. Ao acessar uma página web através de um navegador,
+                  ele é capaz de interpretar o código HTML e renderizá-lo de forma compreensível para o usuário final, exibindo
+                   textos, botões etc. com as configurações definidas por meio das diversas tags que essa linguagem dispõe.</p>
 
-        <h2 id="estrutura">Qual a sua estrutura basica?</h2>
+        <h2 id="estrutura"><font face="Comics, Tahoma" >Qual a sua estrutura basica?</font></h2>
         <small><a href="#inicio">(Voltar)</a></small>
             <p>A estrutura básica de uma página HTML pode ser vista na imagem 1, na qual podemos ver as principais tags que são necessárias para que o documento seja corretamente interpretado pelos browsers.</p>
         <div>
@@ -28,7 +37,7 @@
             <p><small><i>Imagem 1</i></small></p>
         </div>    
 
-            <h3>Acompanhe linha a linha</h3>
+            <h3><font face="Comics, Tahoma">Acompanhe linha a linha:</font></h3>
             <ol>
                 <li>A instrução DOCTYPE deve ser sempre a primeira a aparecer em uma página HTML para indicar ao browser qual versão da linguagem usada. Nesse caso, estamos trabalhando com a HTML5, versão na qual a declaração do DOCTYPE é bastante simples, como podemos ver na listagem;</li>
                 <li>Abertura da tag <strong>html</strong>, que delimita o documento. Sendo assim, todas as demais tags da página devem estar nesse espaço;</li>
@@ -39,23 +48,28 @@
             </ol>
             <p>Para desenvolver páginas com HTML basicamente precisamos de um editor de texto, como o Bloco de Notas do Windows, Nano e Emacs no Linux, entre vários outros. Há, ainda, editores com opções avançadas, como recursos de syntax hilghligt e autocomplete, como Sublime Text, Atom, Brackets e Visual Studio Code, que podem ser usados para editar documentos HTML.
                 Independentemente do editor utilizado, podemos simplesmente copiar o código da Imagem 1 para um deles e salvar o arquivo com extensão .html. Em seguida, podemos abrir esse arquivo em um browser.</p>
-        <h2 id="tags">Tags do HTML</h2>
-        <small><a href="#inicio">(Voltar)</a></small>
-            <p>Um documento HTML é composto por tags, as quais possuem um nome e aparecem entre os sinais < e >, como vimos na Imagem 1, por exemplo, em html e head. Naquele exemplo também vimos que algumas tags precisam ser abertas e fechadas, como em body /body. Nesse caso, a tag de fechamento deve conter a barra / antes do nome. Outras, porém, não precisam ser fechadas, como a tag meta. Nesses casos, a adição da barra / no final da própria tag, como vemos na Linha 4 da Listagem 1 é opcional. Outro aspecto importante da linguagem é que ela é case insensitive, ou seja, não leva em consideração a diferença entre letras maiúsculas e minúsculas. No entanto, o uso apenas de letras minúsculas tem sido utilizado como padrão pelos desenvolvedores.</p>
 
-        <h2 id="cabecalho">Cabeçalho do HTML</h2>
+        <h2 id="tags"><font face="Comics, Tahoma">Tags do HTML.</font></h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+            <p>Um documento HTML é composto por tags, as quais possuem um nome e aparecem entre os sinais 
+                < e >, como vimos na Imagem 1, por exemplo, em html e head. Naquele exemplo também vimos que 
+                algumas tags precisam ser abertas e fechadas, como em <strong>body /body</strong>. Nesse caso, a tag de fechamento 
+                deve conter a barra / antes do nome. Outras, porém, não precisam ser fechadas, como a tag <strong>meta</strong> 
+                Nesses casos, a adição da barra / no final da própria tag, como vemos na Linha 4 da Imagem 1 é opcional. Outro aspecto importante da linguagem é que ela é case insensitive, ou seja, não leva em consideração a diferença entre letras maiúsculas e minúsculas. No entanto, o uso apenas de letras minúsculas tem sido utilizado como padrão pelos desenvolvedores.</p>
+
+        <h2 id="cabecalho"><font face="Comics, Tahoma">Cabeçalho do HTML.</font></h2>
         <small><a href="#inicio">(Voltar)</a></small>
             <p>Cabeçalhos são normalmente utilizados para identificar páginas e seções e possuem aparência diferenciada do restante do texto. No HTML há seis níveis de cabeçalhos/títulos que podem ser utilizados por meio das tags h1, h2, h3, h4, h5 e h6, sendo h1 o maior/mais relevante e h6 o menor/menos relevante.</p>
 
-        <h2 id="paragrafos">Parágrafos no HTML</h2>
+        <h2 id="paragrafos"><font face="Comics, Tahoma">Parágrafos no HTML.</font></h2>
         <small><a href="#inicio">(Voltar)</a></small>
             <p>Parágrafos de texto são gerados na HTML por meio das tags <strong>p /p</strong>. Esse é um exemplo de tag cuja disposição na tela se dá em forma de bloco, ou seja, um parágrafo é posto sempre abaixo do outro.</p>
 
-        <h2 id="imagens">Imagens no HTML</h2>
+        <h2 id="imagens"><font face="Comics, Tahoma">Imagens no HTML.</font></h2>
         <small><a href="#inicio">(Voltar)</a></small>
             <p>A inserção de imagens em uma página HTML pode ser feita por meio da tag img, que recebe no atributo src o endereço do arquivo a ser carregado. Além desse, outros dois atributos importantes são o alt, que indica um texto alternativo que será exibido caso o arquivo não possa ser carregado, e title, que indica o texto que aparecerá como tooltip ao passar o mouse sobre a figura.</p>
 
-        <h2 id="texto">Formatação de Textos</h2>
+        <h2 id="texto"><font face="Comics, Tahoma">Formatação de Textos.</font></h2>
         <small><a href="#inicio">(Voltar)</a></small>
             <p>As tags de formatação de texto ajudam a destacar trechos da parte escrita da página, seja para fins de SEO ou por requisitos do conteúdo. Formatações como negrito e itálico podem ser aplicadas com facilidade utilizando as várias tags disponíveis para esse fim:</p>
 
@@ -68,8 +82,9 @@
                 <li><mark>mark</mark> para texto destacado.</li>
             </ul>
         
-        <h2 id="referencias">Referências</h2>
+        <h2 id="referencias"><font face="Comics, Tahoma">Referências:</font></h2>
         <small><a href="#inicio">(Voltar)</a></small>
             <p>Para o conteudo completo: <a href="https://www.devmedia.com.br/html-basico-codigos-html/16596" target="_blank" title="Link Direto"><b>DevMedia - HTML</b></a></p>
+            
     </body>
 </html>
