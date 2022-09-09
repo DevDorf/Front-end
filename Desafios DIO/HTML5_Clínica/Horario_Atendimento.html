@@ -6,28 +6,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template - Utilizar como modelo</title>
     <link rel="stylesheet" href="base.css">
+    <style>
+        table{
+            -webkit-box-shadow: 19px 20px 15px 7px #2a8539; 
+                box-shadow: 19px 20px 15px 7px #1c6141;
+                border: lightblue;
+        }
+        table thead th {
+            background-color: rgb(47, 122, 66);
+            color: rgb(12, 12, 8);
+        }
+        table tfoot tr:hover td {
+            background-color: rgb(211, 70, 70);
+            cursor: pointer;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: rgb(143, 229, 179);
+        }
+        table tbody tr:hover td {
+            background-color: rgb(25, 230, 52);
+            cursor: pointer;
+        }
+        li {
+            color: rgb(179, 110, 54);
+            font-size: larger;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="menu">
-            <h1>Menu</h1>
-            <ul>
-                <li><a href="Pagina_Inicia.html" title="Pagina Inicial" target="_self">Página Inicial</a></li>
-                <li><a href="nossa_historia.html">Nossa História</a></li>
-                <li><a href="Horario_Atendimento.html">Horário de Atendimento</a></li>
-                <li><a href="Contatos.html">Contatos</a></li>
-            </ul>
+            <h1>C.E.</h1>
+            <hr>
+            <h2>Menu</h2>
+                <ul>
+                    <li><a href="Pagina_Inicia.html" title="Pagina Inicial" target="_self"><strong>Página Inicial</strong></a></li>
+                    <li><a href="nossa_historia.html"><strong>Nossa História</strong></a></li>
+                    <li><a href="Horario_Atendimento.html"><strong>Horário de Atendimento</strong></a></li>
+                    <li><a href="Contatos.html"><strong>Contatos</strong></a></li>
+                </ul>
         </div>
 
         <div class="main">
             <div class="header">
-                Header
-                <!-- Aqui vai o seu header -->
+                <img src="Imagem_Header2.jpg" height="200" width="1000">
+                <h1>Serviços e Horários de Atendimento</h1>
             </div>
     
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+                <p>Para melhor comodidade, estamos disponibiizando uma tabela com os serviços e horários completos.</p>
+
+                <table sumary="Resumo dos dados da tabela, detalhadamente" width="400" align="center" cellpedding="5" cellspacing="0">                    
+                    <thead>
+                        <tr>
+                            <th colspan="4"> Minha de Serviços</th>
+                        </tr>
+                        <tr>
+                            <th title="serviço">Serviço</th>
+                            <th>Segunda a Sábado</th>
+                            <th>Domingos</th>
+                            <th>Feriados</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                        <tr id="1">
+                            <td>Yoga animal</td>
+                            <td>8h - 19h</td>
+                            <td>8h - 14h </td>
+                            <td>9h - 13h</td>
+                        </tr>
+                        <tr id="2">
+                            <td>Musicoterapia</td>
+                            <td>8h - 19h</td>
+                            <td>8h - 14h </td>
+                            <td>9h - 13h</td>
+                        </tr>
+                        <tr id="3">
+                            <td>Massagens Relaxantes</td>
+                            <td>8h - 19h</td>
+                            <td>8h - 14h </td>
+                            <td>9h - 13h</td>
+                        </tr>
+                        <tr id="4">
+                            <td>Acupuntura</td>
+                            <td>8h - 19h</td>
+                            <td>8h - 14h </td>
+                            <td>9h - 13h</td>
+                        </tr>
+                        <tr id="5">
+                            <td>Aromaterapias</td>
+                            <td>8h - 19h</td>
+                            <td>8h - 14h </td>
+                            <td>9h - 13h</td>
+                        </tr>
+                        <tr id="6">
+                            <td>Reik</td>
+                            <td>8h - 19h</td>
+                            <td>8h - 14h </td>
+                            <td>9h - 13h</td>
+                        </tr>
+                    </tbody>
+            
+                    <tfoot>
+                        <td>Atendimento de Urgência e Emergência</td>
+                        <td colspan="3"><a title="Clique para mais informações" href="Contatos.html" >24h Todos os dias da semana</a></td>
+                    </tfoot>
+                </table>
             </div>
     
             <div class="footer">
