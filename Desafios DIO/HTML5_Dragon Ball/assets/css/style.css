@@ -36,8 +36,3 @@ a { color:blue; text-decoration: none;}
 figure {
     text-align: center;
 }
-.fieldset {
-    margin: 15px 0;
-    border-radius: 10px;
-    border-color: red;
-}
