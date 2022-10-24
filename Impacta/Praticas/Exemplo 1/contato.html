@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Cursinho Web - Contato</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="Mídia/livros.png">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Página Inicial</a> | <a href="disciplinas.html">Disciplinas Oferecidas</a> | <a href="contato.html">Contato</a>
+            </nav>
+        </header>
+
+        <h1><strong>Dados para contato:</strong></h1>
+
+        <form method="post">
+            <label>Nome Completo:</label><br>
+            <input type="text" name="nome"><br>
+
+            <label>E-mail:</label> <br>
+            <input type="email"><br>
+            <br>
+
+            <label>Disciplina:</label><br>
+            <select name="disciplina" id="">
+                <option value="">Desenvolvimento Web</option>
+                <option value="">Engenharia em Sotware</option>
+                <option value="">Banco de Dados</option>
+                <option value="">Programação Orientada a Objetos</option>
+            </select>
+
+            <fieldset>
+                <legend>Quais linguagens você conhece?</legend>
+                <input type="checkbox" name="linguagens" value="Csharp">
+                <label>C#</label><br>
+                <input type="checkbox" name="linguagens" value="java">
+                <label>Java</label><br>
+                <input type="checkbox" name="linguagens" value="js">
+                <label>JavaScript</label><br>
+                <input type="checkbox" name="linguagens" value="python">
+                <label>Python</label><br>
+                <input type="checkbox" name="linguagens" value="php">
+                <label>PHP</label><br>
+                <input type="checkbox" name="linguagens" value="ruby">
+                <label>Ruby</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Onde você conheceu o Cursinho Web</legend>
+                <input type="radio" name="conheceu" value="amigos">
+                <label>Amigos</label><br>
+                <input type="radio" name="conheceu" value="google">
+                <label>Google</label><br>
+                <input type="radio" name="conheceu" value="youtube">
+                <label>Youtube</label><br>
+                <input type="radio" name="conheceu" value="instagram">
+                <label>Instagram</label>
+            </fieldset>
+            <br>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+        <br>
+        <footer>
+            Cursinho Web - Todos os direitods reservados<br>
+            Contato: <a href="mailto:email@provedor.com">email@provedor.com</a>
+        </footer>
+    </body>
+
+
+</html>
